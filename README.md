@@ -6,8 +6,10 @@ Some of my repos include:
 - A side project working on image object detection with the YoloV8 model pretrained by ultralytics [here](https://github.com/crisjosil/Aerial_object_detection_tests). I also containerised this as an app and deployed it using microsoft azure. You can interact with this app [here](https://yo-detection.azurewebsites.net/) (may take some time to load as it is the free version without pre-warmed workers). The plan is to retrain this model for aerial object detection (in process).
 - After hearing in the news about a wildfire that could become the largest in the UK, I checked for satellite imagery covering the area and used a well known method for mapping fires. Check some outcomes of this [here]()
 - xarray
-- PolSAR paper
-- weather API
-- ERA5 data
-- private: sensors, sat pipelines
-
+- PolSAR paper: Repo of a peer reviewd publication using Quad-PolSAR and machine learning for crop monitoring [here](https://github.com/crisjosil/MT-PolSAR-Change-Detection-For-Crop-Monitoring-And-Classification).  
+- Hydrological data API: A notebook for quering an API to fetch hydrological data from a network of IoT sensors distributed accross Scotland. I also use folium and geopandas for data analysis [here](https://github.com/crisjosil/Weather_data_API/blob/master/Scotland_forth_valley_data.ipynb). 
+- A colab notebook which downloads surface soil moisture data from the ECMWF-ERA5 dataset via the Google Earth engine python API. It reads the areas of interest from a polygon, filters the image collection and downloads the desired data (.csv)  
+- I have several private repos including  (and others):
+-   A Dockerised ETL pipeline for ingestion of IoT data into a Azure hosted Postgres dB. This processe is triggered by event-driven azure functions (serverless computing).
+-   A Dockerised ETL pipeline for download and pre-processing satellite imagery.
+  
