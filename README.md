@@ -10,6 +10,6 @@ Some of my repos include:
 - Hydrological data API: A notebook for quering an API to fetch hydrological data from a network of IoT sensors distributed accross Scotland. I also use folium and geopandas for data analysis [here](https://github.com/crisjosil/Weather_data_API/blob/master/Scotland_forth_valley_data.ipynb). 
 - A colab notebook which downloads surface soil moisture data from the ECMWF-ERA5 dataset via the Google Earth engine python API. It reads the areas of interest from a polygon, filters the image collection and downloads the desired data (.csv)[here](https://github.com/crisjosil/Useful_GIS_and_data_Science_scripts/blob/master/GEE_ERA5_Time_series_from_polygons.ipynb)  
 - I have several private repos including  (and others):
--   A Dockerised ETL pipeline for ingestion of IoT data into a Azure hosted Postgres dB. This processe is triggered by event-driven azure functions (serverless computing).
--   A Dockerised ETL pipeline for download and pre-processing satellite imagery.
+-   A Dockerised ETL pipeline for ingestion of IoT data into an Azure hosted Postgress dB. This process is triggered by event-driven azure functions (serverless computing).
+-   A Dockerised ETL pipeline for download, pre-processing and serving satellite imagery.
   
